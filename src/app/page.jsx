@@ -7,9 +7,7 @@ export default function Home() {
   return (
     <>
       <LandingPage />
-      <About />
-      <CEO />
-      <Features />
+      
     </>
   );
 }
