@@ -4,14 +4,14 @@ export default function Features() {
   return (
     <section id="features" class="features">
       <div class="container" data-aos="fade-up">
-        <header class="section-header">
-          <h2>Features</h2>
-          <p>Laboriosam et omnis fuga quis dolor direda fara</p>
+        <header class="section-title">
+          <h2>My Services and Features</h2>
+          <p>Check bellow to see my work experience.</p>
         </header>
 
-        <div class="row">
+        <div class="row row1">
           <div class="col-lg-6">
-            <img src="/img/features.png" class="img-fluid" alt="" />
+            <img src="/img/jimmy.jpg" class="img-fluid" alt="" />
           </div>
 
           <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
@@ -19,83 +19,79 @@ export default function Features() {
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Eos aspernatur rem</h3>
+                  <h3>Finger stuffs</h3>
                 </div>
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Facilis neque ipsa</h3>
+                  <h3>Dreadlugs</h3>
                 </div>
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Volup amet voluptas</h3>
+                  <h3>Hair Plating</h3>
                 </div>
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Rerum omnis sint</h3>
+                  <h3>Sallon</h3>
                 </div>
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Alias possimus</h3>
+                  <h3>Eye lashes</h3>
                 </div>
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Repellendus mollitia</h3>
+                  <h3>Face make up</h3>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="row feture-tabs" data-aos="fade-up">
+        <div class="row row2 feture-tabs" data-aos="fade-up">
           <div class="col-lg-6">
             <h3>
-              Neque officiis dolore maiores et exercitationem quae est seda
-              lidera pat claero
+              Here are my shops and some brief discription about what are
+              offered there.
             </h3>
 
             <ul class="nav nav-pills mb-3">
               <li>
                 <a class="nav-link active" data-bs-toggle="pill" href="#tab1">
-                  Saepe fuga
+                  Zaria Kongo.
                 </a>
               </li>
               <li>
                 <a class="nav-link" data-bs-toggle="pill" href="#tab2">
-                  Voluptates
+                  U/Bazai, Ikara.
                 </a>
               </li>
               <li>
                 <a class="nav-link" data-bs-toggle="pill" href="#tab3">
-                  Corrupti
+                  central market, Kaduna.
                 </a>
               </li>
             </ul>
 
             <div class="tab-content">
               <div class="tab-pane fade show active" id="tab1">
-                <p>
-                  Consequuntur inventore voluptates consequatur aut vel et. Eos
-                  doloribus expedita. Sapiente atque consequatur minima nihil
-                  quae aspernatur quo suscipit voluptatem.
-                </p>
+                <p>My main branch,</p>
                 <div class="d-flex align-items-center mb-2">
                   <i class="bi bi-check2"></i>
-                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                  <h4>Come and see for urself woo</h4>
                 </div>
                 <p>
                   Laborum omnis voluptates voluptas qui sit aliquam blanditiis.
@@ -115,11 +111,7 @@ export default function Features() {
               </div>
 
               <div class="tab-pane fade show" id="tab2">
-                <p>
-                  Consequuntur inventore voluptates consequatur aut vel et. Eos
-                  doloribus expedita. Sapiente atque consequatur minima nihil
-                  quae aspernatur quo suscipit voluptatem.
-                </p>
+                <p>Second Branch.</p>
                 <div class="d-flex align-items-center mb-2">
                   <i class="bi bi-check2"></i>
                   <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
@@ -142,11 +134,7 @@ export default function Features() {
               </div>
 
               <div class="tab-pane fade show" id="tab3">
-                <p>
-                  Consequuntur inventore voluptates consequatur aut vel et. Eos
-                  doloribus expedita. Sapiente atque consequatur minima nihil
-                  quae aspernatur quo suscipit voluptatem.
-                </p>
+                <p>Central Branch</p>
                 <div class="d-flex align-items-center mb-2">
                   <i class="bi bi-check2"></i>
                   <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
@@ -171,20 +159,20 @@ export default function Features() {
           </div>
 
           <div class="col-lg-6">
-            <img src="/img/features.png" class="img-fluid" alt="" />
+            <img src="/img/nafbby.jpg" class="img-fluid" alt="" />
           </div>
         </div>
 
-        <div class="row feature-icons" data-aos="fade-up">
-          <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
+        <div class="row row3 feature-icons" data-aos="fade-up">
+          <h3>What people say about my work.</h3>
 
-          <div class="row">
+          <div class="row ">
             <div
               class="col-xl-4 text-center"
               data-aos="fade-right"
               data-aos-delay="100"
             >
-              <img src="/img/features.png" class="img-fluid p-4" alt="" />
+              <img src="/img/suzi.jpg" class="img-fluid " alt="" />
             </div>
 
             <div class="col-xl-8 d-flex content">
@@ -192,10 +180,10 @@ export default function Features() {
                 <div class="col-md-6 icon-box" data-aos="fade-up">
                   <i class="ri-line-chart-line"></i>
                   <div>
-                    <h4>Corporis voluptates sit</h4>
+                    <h4>Jimmy Yakubu</h4>
                     <p>
-                      Consequuntur sunt aut quasi enim aliquam quae harum
-                      pariatur laboris nisi ut aliquip
+                      Keep pushing, this is wow, just wow, i love the services
+                      i'm recieing in kaduna central branch, really awesome.
                     </p>
                   </div>
                 </div>
@@ -207,10 +195,11 @@ export default function Features() {
                 >
                   <i class="ri-stack-line"></i>
                   <div>
-                    <h4>Ullamco laboris nisi</h4>
+                    <h4>Hanne Maisamari.</h4>
                     <p>
-                      Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt
+                      Gaskiya abin na yi ne, sai kin je ko ka je ka tabbatar da
+                      kanka, yadda aikinta ke da ban sha'awa, aikin yayi ne
+                      kawai, turawa suka ce Very fafet.
                     </p>
                   </div>
                 </div>
@@ -222,10 +211,10 @@ export default function Features() {
                 >
                   <i class="ri-brush-4-line"></i>
                   <div>
-                    <h4>Labore consequatur</h4>
+                    <h4>Abdul Mohammad</h4>
                     <p>
-                      Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
-                      maiores omnis facere
+                      Alhamdulilla, Yarbaba kennan, iye, abin ba cewa komai.
+                      Allah bada more wisdom.
                     </p>
                   </div>
                 </div>
@@ -237,10 +226,10 @@ export default function Features() {
                 >
                   <i class="ri-magic-line"></i>
                   <div>
-                    <h4>Beatae veritatis</h4>
+                    <h4>Yarbaba</h4>
                     <p>
-                      Expedita veritatis consequuntur nihil tempore laudantium
-                      vitae denat pacta
+                      I myself will love to appreciate you all for all the good
+                      comments, godiya nike, Allah bar mu tare.
                     </p>
                   </div>
                 </div>

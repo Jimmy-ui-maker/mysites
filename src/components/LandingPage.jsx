@@ -4,14 +4,15 @@ export default function LandingPage() {
   return (
     <section id="mainPage" class="mainPage d-flex align-items-center">
       <div class="container">
-        <div class="row">
+        <div class="row uper">
           <div class="col-lg-6 d-flex flex-column justify-content-center text-center order-2 order-lg-1 ">
             <h1 data-aos="fade-up">
-              We provides best hair styles to our customers
+              We provides best work to all our customers
             </h1>
             <h2 data-aos="fade-up" data-aos-delay="400">
-              Feel free by scrolling down to see the styles available. You can
-              do well by clicking on th Get Started Button.
+              To know more about my works, feel free by scrolling down to see
+              the available work. <br /> You can do well by clicking on th Get
+              Started Button.
             </h2>
             <div data-aos="fade-up" data-aos-delay="600">
               <div class="text-center text-lg-start">
@@ -30,6 +31,7 @@ export default function LandingPage() {
             data-aos="zoom-out"
             data-aos-delay="200"
           >
+            <h4 className=" d-lg-none img-head">Yarbaba Makeups</h4>
             <img src="/img/nafbby.jpg" class="img-fluid shadow" alt="" />
           </div>
         </div>

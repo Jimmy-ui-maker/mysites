@@ -7,120 +7,92 @@ export default function Footer() {
         <div class="footer-top">
           <div class="container">
             <div class="row gy-4">
-              <div
-                class="col-lg-5 col-md-12 footer-info"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <a href="#" class="logo d-flex align-items-center">
+              <div class="col-lg-5 col-md-12 footer-info">
+                <Link href="#" class="logo d-flex align-items-center">
                   <span>Nafsy Make Up Site</span>
-                </a>
+                </Link>
                 <p>
                   I'm Miss Nafisa from U/Nazai a make up artist popularly known
                   as Nafsy baby. <br />
-                  I use alot of knowlegde in other to come up with a beautify styles such as;<br />
+                  I use alot of knowlegde in other to come up with a beautify
+                  styles such as;
+                  <br />
                   Yar Kano antama styles. <br /> <br />
-                  Shops use: Visual Studio Code Purpulary known as VS Code
-                  Technologies: Node JS, React JS , Github and Vercel as mention
-                  ealier.
+                  Shops location: Zaria kongo, Ikara U/Bazai, and Kaduna Central
+                  Market.
                 </p>
-                <div class="social-links mt-3">
-                  <a href="#" class="twitter">
-                    <i class="bi bi-twitter"></i>
-                  </a>
-                  <a href="#" class="facebook">
-                    <i class="bi bi-facebook"></i>
-                  </a>
-                  <a href="#" class="instagram">
-                    <i class="bi bi-instagram"></i>
-                  </a>
-                  <a href="#" class="linkedin">
-                    <i class="bi bi-linkedin"></i>
-                  </a>
-                </div>
               </div>
 
-              <div
-                class="col-lg-2 col-6 footer-links"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
+              <div class="col-lg-2 col-6 footer-links">
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                    <i class="bi bi-chevron-right"></i> <a href="/">Home</a>
+                    <i class="bi bi-chevron-right"></i> <Link href="/">Home</Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>{" "}
-                    <a href="/about">About us</a>
+                    <Link href="#about">About us</Link>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <Link href="#team">Team Members</Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>{" "}
-                    <a href="/levels">Services</a>
+                    <Link href="#features">Services Feautures</Link>
                   </li>
+
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <a href="#">Terms of service</a>
-                  </li>
-                  <li>
-                    <i class="bi bi-chevron-right"></i>
-                    <a href="#">Privacy policy</a>
+                    <Link href="">Privacy policy</Link>
                   </li>
                 </ul>
               </div>
 
-              <div
-                class="col-lg-2 col-6 footer-links"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
+              <div class="col-lg-2 col-6 footer-links">
                 <h4>My Services</h4>
                 <ul>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <a href="#">UI Design</a>
+                    <Link href="">Hair Dredlug</Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <a href="#">REST API</a>
+                    <Link href="">Saloon</Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <a href="#">FullStack Web</a>
+                    <Link href="">Fingers Stuffs</Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <a href="#">Git and Github</a>
+                    <Link href="">Eye things</Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <a href="#">Deployment on Vercel</a>
+                    <Link href="">Hair Sewing</Link>
                   </li>
                 </ul>
               </div>
 
-              <div
-                class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
-                data-aos="fade-up"
-                data-aos-delay="500"
-              >
+              <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                 <h4>Contact Us</h4>
                 <p>
-                  Rimi Kamanzou <br />
-                  Chikun, Kaduna
+                  Kongo Zaria <br />
+                  Kaduna State
                   <br />
                   Nigeria <br />
                   <br />
-                  <strong>Phone:</strong> +234 701 228 016
+                  <strong>Phone:</strong> +234 906 183 9480
                   <br />
-                  <strong>Email:</strong> jimiyaks3@gmail.com
+                  <strong>Email:</strong> yarbaba@gmail.com
                   <br />
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="container" data-aos="fade-up" data-aos-delay="600">
+        <div class="container">
           <div class="copyright">
             &copy; Copyright
             <strong>
@@ -130,9 +102,14 @@ export default function Footer() {
           </div>
           <div class="credits">
             Designed by
-            <a href="/" className=" mx-1">
+            <Link href="/" className=" mx-1">
               Bala Jimmy Yakubu
-            </a>
+            </Link>
+          </div>
+          <div className="d-flex justify-content-end fixed-bottom">
+            <Link href="" className="scroll-back ">
+              <i className=" bi bi-arrow-up btn  rounded-5"></i>
+            </Link>
           </div>
         </div>
       </footer>

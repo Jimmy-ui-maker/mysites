@@ -8,17 +8,19 @@ export default function About() {
     >
       <div className="container">
         <div className="row content justify-content-center align-items-center">
-          <div className="row">
-            <h2 className="text-center" data-aos="fade-up">
-              Make Up Web App
-            </h2>
+          <div className="row ">
+            <div className="section-title">
+              <h2 className="text-center" data-aos="fade-up">
+                Make Up Web App
+              </h2>
+            </div>
             <hr />
           </div>
           <div className="col-lg-6" data-aos="fade-right" data-aos-delay="200">
             <img src="/img/features.png" className="img-fluid pt-2" />
           </div>
           <div
-            className="col-lg-6 pt-4 pt-lg-0 text-border"
+            className="col-lg-6 pt-4 pt-lg-0 "
             data-aos="fade-up"
             data-aos-delay="200"
           >

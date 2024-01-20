@@ -1,16 +1,19 @@
-import React from "react";
 
 export default function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-md shadow-sm py-1"
-      data-aos="fade-down"
-      data-aos-delay="5000"
     >
       <div className="container">
-        <img src="img/nafbby.jpg" className=" rounded-2" width={30} height={30} alt="" />
+        <img
+          src="img/nafbby.jpg"
+          className=" rounded-2"
+          width={30}
+          height={30}
+          alt=""
+        />
         <a href="/" className="navbar-brand fw-bolder text-uppercase">
-          Make/\Ups
+          Yarbaba Makeup
         </a>
         <button
           className="navbar-toggler shadow-none"
@@ -35,18 +38,18 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="" className="nav-link fw-bold">
-                Red Style
+              <a href="#team" className="nav-link fw-bold">
+                Team
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#features" className="nav-link fw-bold">
+                Services
               </a>
             </li>
             <li className="nav-item">
               <a href="" className="nav-link fw-bold">
-                Blue Style
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="" className="nav-link fw-bold">
-                Pink Styles
+                Contact
               </a>
             </li>
           </ul>
