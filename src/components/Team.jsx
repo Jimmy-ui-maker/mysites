@@ -45,7 +45,7 @@ export default function Team() {
           >
             <div class="member d-flex align-items-start">
               <div class="pic">
-                <img src="/img/jimmy.jpg" class="img-fluid" alt="" />
+                <img src="/img/jimmy.JPG" class="img-fluid" alt="" />
               </div>
               <div class="member-info">
                 <h4>Bala Jimmy Yakubu</h4>

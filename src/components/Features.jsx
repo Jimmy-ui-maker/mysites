@@ -11,7 +11,7 @@ export default function Features() {
 
         <div class="row row1">
           <div class="col-lg-6">
-            <img src="/img/jimmy.jpg" class="img-fluid" alt="" />
+            <img src="/img/jimmy.JPG" class="img-fluid" alt="" />
           </div>
 
           <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
