@@ -17,7 +17,7 @@ export default function About() {
             <hr />
           </div>
           <div className="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-            <img src="/img/features.png" className="img-fluid pt-2" />
+            <img src="/img/n3.jpg" className="img-fluid" />
           </div>
           <div
             className="col-lg-6 pt-4 pt-lg-0 "

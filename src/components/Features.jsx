@@ -226,10 +226,9 @@ export default function Features() {
                 >
                   <i class="ri-magic-line"></i>
                   <div>
-                    <h4>Yarbaba</h4>
+                    <h4>Ynayna</h4>
                     <p>
-                      I myself will love to appreciate you all for all the good
-                      comments, godiya nike, Allah bar mu tare.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                   </div>
                 </div>
@@ -241,10 +240,10 @@ export default function Features() {
                 >
                   <i class="ri-command-line"></i>
                   <div>
-                    <h4>Molestiae dolor</h4>
+                    <h4>James Zamani</h4>
                     <p>
-                      Et fuga et deserunt et enim. Dolorem architecto ratione
-                      tensa raptor marte
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      A, sed!
                     </p>
                   </div>
                 </div>
@@ -256,10 +255,10 @@ export default function Features() {
                 >
                   <i class="ri-radar-line"></i>
                   <div>
-                    <h4>Explicabo consectetur</h4>
+                    <h4>Yarbaba</h4>
                     <p>
-                      Est autem dicta beatae suscipit. Sint veritatis et sit
-                      quasi ab aut inventore
+                      I myself will love to appreciate you all for all the good
+                      comments, godiya nike, Allah bar mu tare.
                     </p>
                   </div>
                 </div>

@@ -12,7 +12,7 @@ export default function Footer() {
                   <span>Nafsy Make Up Site</span>
                 </Link>
                 <p>
-                  I'm Miss Nafisa from U/Nazai a make up artist popularly known
+                  I'm Miss Nafisa from U/Bazai a make up artist popularly known
                   as Nafsy baby. <br />
                   I use alot of knowlegde in other to come up with a beautify
                   styles such as;
