@@ -9,9 +9,9 @@ export default function Home() {
     <>
       <LandingPage />
       <About />
+      <Features />
       <CEO />
       <Team />
-      <Features />
     </>
   );
 }

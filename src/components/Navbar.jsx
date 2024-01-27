@@ -1,9 +1,8 @@
+import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav
-      className="navbar navbar-expand-md shadow-sm py-1"
-    >
+    <nav className="navbar navbar-expand-md shadow-sm py-1">
       <div className="container">
         <img
           src="img/nafbby.jpg"
@@ -12,9 +11,9 @@ export default function Navbar() {
           height={30}
           alt=""
         />
-        <a href="/" className="navbar-brand fw-bolder text-uppercase">
+        <Link href="/" className="navbar-brand fw-bolder text-uppercase">
           Yarbaba Makeup
-        </a>
+        </Link>
         <button
           className="navbar-toggler shadow-none"
           type="button"
@@ -38,15 +37,16 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#team" className="nav-link fw-bold">
-                Team
-              </a>
-            </li>
-            <li className="nav-item">
               <a href="#features" className="nav-link fw-bold">
                 Services
               </a>
             </li>
+            <li className="nav-item">
+              <a href="#team" className="nav-link fw-bold">
+                Team
+              </a>
+            </li>
+
             <li className="nav-item">
               <a href="" className="nav-link fw-bold">
                 Contact

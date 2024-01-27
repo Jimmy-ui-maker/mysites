@@ -293,8 +293,34 @@
 }
 
 /*--------------------------------------------------------------
+# Nails
+--------------------------------------------------------------*/
+.nails {
+  background: var(--softColor);
+}
+.nails .card {
+  background: var(--softColor);
+  margin-bottom: 10px;
+  height: 50vh;
+  border-radius: 10px;
+}
+.nails .card img {
+  height: 40vh;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .nails .card {
+    height: 70vh;
+  }
+  .nails .card img {
+    height: 60vh;
+  }
+}
+/*--------------------------------------------------------------
   # Team
   --------------------------------------------------------------*/
+
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -440,57 +466,7 @@
   color: var(--testColor);
 }
 
-.features .feture-tabs {
-  margin-top: 120px;
-}
 
-.features .feture-tabs h3 {
-  color: var(--testColor);
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 768px) {
-  .features .feture-tabs h3 {
-    font-size: 28px;
-  }
-}
-
-.features .feture-tabs .nav-pills {
-  border-bottom: 1px solid #eee;
-}
-
-.features .feture-tabs .nav-link {
-  background: none;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--testColor);
-  padding: 12px 0;
-  margin-right: 25px;
-  margin-bottom: -2px;
-  border-radius: 0;
-}
-
-.features .feture-tabs .nav-link.active {
-  color: var(--hoverColor);
-  border-bottom: 3px solid var(--testColor);
-}
-
-.features .feture-tabs .tab-content h4 {
-  font-size: 18px;
-  margin: 0;
-  font-weight: 700;
-  color: var(--testColor);
-}
-
-.features .feture-tabs .tab-content i {
-  font-size: 24px;
-  line-height: 0;
-  margin-right: 8px;
-  color: var(--testColor);
-}
 
 .features .feature-icons {
   margin-top: 120px;
@@ -539,8 +515,7 @@
 .footer {
   padding: 0 0 30px 0;
   font-size: 14px;
-  margin-top: 15px;
-  background: var(--lightColor);
+  background: var(--softColor);
 }
 
 .footer .footer-top {

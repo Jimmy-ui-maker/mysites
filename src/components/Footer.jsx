@@ -9,11 +9,11 @@ export default function Footer() {
             <div class="row gy-4">
               <div class="col-lg-5 col-md-12 footer-info">
                 <Link href="#" class="logo d-flex align-items-center">
-                  <span>Nafsy Make Up Site</span>
+                  <span>Yarbaba Make Up</span>
                 </Link>
                 <p>
-                  I'm Miss Nafisa from U/Bazai a make up artist popularly known
-                  as Nafsy baby. <br />
+                  I'm Miss Nafisa from U/Bazai a make up stylist popularly known
+                  as Yarbaba. <br />
                   I use alot of knowlegde in other to come up with a beautify
                   styles such as;
                   <br />
@@ -27,7 +27,8 @@ export default function Footer() {
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                    <i class="bi bi-chevron-right"></i> <Link href="/">Home</Link>
+                    <i class="bi bi-chevron-right"></i>{" "}
+                    <Link href="/">Home</Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>{" "}

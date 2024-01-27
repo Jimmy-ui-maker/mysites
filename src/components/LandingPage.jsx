@@ -5,9 +5,9 @@ export default function LandingPage() {
     <section id="mainPage" class="mainPage d-flex align-items-center">
       <div class="container">
         <div class="row uper">
-          <div class="col-lg-6 d-flex flex-column justify-content-center text-center order-2 order-lg-1 ">
+          <div class="col-lg-6 d-flex flex-column justify-content-center text-lg-start text-center order-2 order-lg-1 ">
             <h1 data-aos="fade-up">
-              We provides best work to all our customers
+              I'm a make up stylist with a year old experince
             </h1>
             <h2 data-aos="fade-up" data-aos-delay="400">
               To know more about my works, feel free by scrolling down to see
